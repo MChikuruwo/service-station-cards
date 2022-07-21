@@ -1,0 +1,37 @@
+version: '3'
+services:
+
+  fudzo-main-service:
+    build:
+      context: ${PWD}/transaction-design-patterns
+      dockerfile: Dockerfile
+    image: cap10/myrepository:fudzo-main-service
+    container_name: fudzo-main-service
+    network_mode: host
+
+
+  fudzo-user-service:
+    build:
+      context: ${PWD}/user-service
+      dockerfile: Dockerfile
+    image: cap10/myrepository:fudzo-user-service
+    container_name: fudzo-user-service
+    network_mode: host
+
+  fudzo-registry-service:
+    build:
+      context: ${PWD}/registry-service
+      dockerfile: Dockerfile
+    image: cap10/myrepository:fudzo-registry-service
+    container_name: fudzo-registry-service
+    network_mode: host
+
+  fudzo-gateway-service:
+    build:
+      context: ${PWD}/gateway-service
+      dockerfile: Dockerfile
+    image: cap10/myrepository:fudzo-gateway-service
+    container_name: fudzo-gateway-service
+    network_mode: host
+
+

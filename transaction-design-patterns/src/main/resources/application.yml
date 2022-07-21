@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: prod
+  mvc:
+    pathpattern:
+      matching-strategy: ant_path_matcher
+  application:
+    name: fudzo-main-service
