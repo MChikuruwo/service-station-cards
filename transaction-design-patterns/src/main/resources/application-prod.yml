@@ -14,8 +14,8 @@ spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mariadb://38.242.196.215:3306/fudzo?createDatabaseIfNotExist=true&useSSL=false&autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&failOverReadOnly=false&allowMultiQueries=true&serverTimezone=Africa/Harare
-    username: 'developer'
-    password: 'ch@ng3itDev'
+    username: 'root'
+    password: ''
     driver-class-name: org.mariadb.jdbc.Driver
     hikari:
       data-source-properties:

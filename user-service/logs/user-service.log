@@ -462,7 +462,7 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'l
 	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:842) ~[mysql-connector-java-8.0.26.jar:8.0.26]
 	... 115 common frames omitted
 
-2022-05-06 00:14:16.419 ERROR [User-service,,] 10949 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@42039326] to prepare test instance [zw.co.jugaad.userservice.UserServiceApplicationTests@3390621a]
+2022-05-06 00:14:16.419 ERROR [User-service,,] 10949 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@42039326] to prepare test instance [UserServiceApplicationTests@3390621a]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.9.jar:5.3.9]
@@ -1087,7 +1087,7 @@ Caused by: com.mysql.cj.exceptions.CJException: Access denied for user 'root'@'l
 	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:842) ~[mysql-connector-java-8.0.26.jar:8.0.26]
 	... 115 common frames omitted
 
-2022-05-06 00:14:49.893 ERROR [User-service,,] 10973 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@42039326] to prepare test instance [zw.co.jugaad.userservice.UserServiceApplicationTests@3df7e309]
+2022-05-06 00:14:49.893 ERROR [User-service,,] 10973 --- [main] o.s.test.context.TestContextManager      : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@42039326] to prepare test instance [UserServiceApplicationTests@3df7e309]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132) ~[spring-test-5.3.9.jar:5.3.9]

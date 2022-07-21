@@ -65,8 +65,8 @@ spring:
   second:
    datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    password: ch@ng3itDev
-    username: developer
+    password:
+    username: root
     url: jdbc:mysql://localhost:3306/fudzo_users
     driver-class-name: org.mariadb.jdbc.Driver
    jpa:
